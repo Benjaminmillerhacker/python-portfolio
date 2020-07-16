@@ -6,7 +6,7 @@ import smtplib, imapclient, pyzmail, logging, traceback, time, subprocess
 logging.basicConfig(filename='torrentStarterLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configure the program by setting some variables.
-MY_EMAIL = 'asweigart@gmail.com' # bot should only respond to me
+MY_EMAIL = 'benjaminmiller132@gmail.com' # bot should only respond to me
 BOT_EMAIL = 'imaptest@coffeeghost.net'
 BOT_EMAIL_PASSWORD = '7|)6S1JS6>euu8p/nTlf'
 IMAP_SERVER = 'mail.coffeeghost.net'
